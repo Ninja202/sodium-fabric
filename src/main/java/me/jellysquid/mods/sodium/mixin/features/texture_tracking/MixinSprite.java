@@ -1,14 +1,14 @@
 package me.jellysquid.mods.sodium.mixin.features.texture_tracking;
 
-import com.mojang.blaze3d.systems.RenderSystem;
-import me.jellysquid.mods.sodium.client.SodiumClientMod;
-import me.jellysquid.mods.sodium.client.render.texture.SpriteExtended;
 import net.minecraft.client.resource.metadata.AnimationResourceMetadata;
-import net.minecraft.client.texture.Sprite;
-import org.spongepowered.asm.mixin.Final;
-import org.spongepowered.asm.mixin.Mixin;
+import me.jellysquid.mods.sodium.client.render.texture.SpriteExtended;
+import me.jellysquid.mods.sodium.client.SodiumClientMod;
+import com.mojang.blaze3d.systems.RenderSystem;
 import org.spongepowered.asm.mixin.Overwrite;
+import net.minecraft.client.texture.Sprite;
 import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Final;
 
 @Mixin(Sprite.class)
 public abstract class MixinSprite implements SpriteExtended {

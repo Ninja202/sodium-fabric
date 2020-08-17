@@ -1,10 +1,10 @@
 package me.jellysquid.mods.sodium.client.render.chunk.region;
 
-import it.unimi.dsi.fastutil.longs.Long2ReferenceOpenHashMap;
-import it.unimi.dsi.fastutil.objects.ObjectIterator;
-import me.jellysquid.mods.sodium.client.gl.util.MemoryTracker;
 import me.jellysquid.mods.sodium.client.render.chunk.ChunkGraphicsState;
+import me.jellysquid.mods.sodium.client.gl.util.MemoryTracker;
+import it.unimi.dsi.fastutil.longs.Long2ReferenceOpenHashMap;
 import me.jellysquid.mods.sodium.client.util.MathUtil;
+import it.unimi.dsi.fastutil.objects.ObjectIterator;
 import net.minecraft.util.math.ChunkSectionPos;
 import org.apache.commons.lang3.Validate;
 

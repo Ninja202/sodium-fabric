@@ -1,7 +1,7 @@
 package me.jellysquid.mods.sodium.common.util.collections;
 
-import java.util.Deque;
 import java.util.Iterator;
+import java.util.Deque;
 
 public class DequeDrain<T> implements Iterator<T> {
     private final Deque<T> deque;

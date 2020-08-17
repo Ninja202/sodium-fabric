@@ -1,13 +1,13 @@
 package me.jellysquid.mods.sodium.mixin.features.buffer_builder.fast_advance;
 
-import com.google.common.collect.ImmutableList;
-import net.minecraft.client.render.BufferBuilder;
 import net.minecraft.client.render.FixedColorVertexConsumer;
-import net.minecraft.client.render.VertexFormat;
 import net.minecraft.client.render.VertexFormatElement;
-import org.spongepowered.asm.mixin.Mixin;
+import net.minecraft.client.render.BufferBuilder;
+import net.minecraft.client.render.VertexFormat;
+import com.google.common.collect.ImmutableList;
 import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.Mixin;
 
 @Mixin(BufferBuilder.class)
 public abstract class MixinBufferBuilder extends FixedColorVertexConsumer  {

@@ -1,14 +1,14 @@
 package me.jellysquid.mods.sodium.client.render.chunk.region;
 
-import it.unimi.dsi.fastutil.objects.ObjectArrayList;
-import me.jellysquid.mods.sodium.client.gl.arena.GlBufferArena;
-import me.jellysquid.mods.sodium.client.gl.array.GlVertexArray;
-import me.jellysquid.mods.sodium.client.gl.buffer.GlBuffer;
-import me.jellysquid.mods.sodium.client.gl.util.MemoryTracker;
+import me.jellysquid.mods.sodium.client.render.chunk.multidraw.ChunkDrawCallBatcher;
+import me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildResult;
 import me.jellysquid.mods.sodium.client.model.quad.properties.ModelQuadFacing;
 import me.jellysquid.mods.sodium.client.render.chunk.ChunkGraphicsState;
-import me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildResult;
-import me.jellysquid.mods.sodium.client.render.chunk.multidraw.ChunkDrawCallBatcher;
+import me.jellysquid.mods.sodium.client.gl.array.GlVertexArray;
+import me.jellysquid.mods.sodium.client.gl.arena.GlBufferArena;
+import me.jellysquid.mods.sodium.client.gl.util.MemoryTracker;
+import me.jellysquid.mods.sodium.client.gl.buffer.GlBuffer;
+import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 
 public class ChunkRegion<T extends ChunkGraphicsState> {
     private static final int EXPECTED_CHUNK_SIZE = 4 * 1024;

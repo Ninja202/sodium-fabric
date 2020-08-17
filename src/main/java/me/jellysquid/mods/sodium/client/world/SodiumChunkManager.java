@@ -1,21 +1,21 @@
 package me.jellysquid.mods.sodium.client.world;
 
-import it.unimi.dsi.fastutil.Hash;
-import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
-import it.unimi.dsi.fastutil.objects.ObjectIterator;
 import me.jellysquid.mods.sodium.client.util.collections.FixedLongHashTable;
+import net.minecraft.world.chunk.light.LightingProvider;
 import net.minecraft.client.world.ClientChunkManager;
-import net.minecraft.client.world.ClientWorld;
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.network.PacketByteBuf;
-import net.minecraft.util.math.ChunkPos;
-import net.minecraft.util.math.ChunkSectionPos;
+import it.unimi.dsi.fastutil.objects.ObjectIterator;
 import net.minecraft.world.biome.source.BiomeArray;
+import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
+import net.minecraft.util.math.ChunkSectionPos;
 import net.minecraft.world.chunk.ChunkSection;
+import net.minecraft.client.world.ClientWorld;
 import net.minecraft.world.chunk.ChunkStatus;
 import net.minecraft.world.chunk.EmptyChunk;
 import net.minecraft.world.chunk.WorldChunk;
-import net.minecraft.world.chunk.light.LightingProvider;
+import net.minecraft.network.PacketByteBuf;
+import net.minecraft.util.math.ChunkPos;
+import net.minecraft.nbt.CompoundTag;
+import it.unimi.dsi.fastutil.Hash;
 
 import java.util.concurrent.locks.StampedLock;
 

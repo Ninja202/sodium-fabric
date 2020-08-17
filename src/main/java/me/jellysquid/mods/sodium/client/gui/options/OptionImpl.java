@@ -1,18 +1,18 @@
 package me.jellysquid.mods.sodium.client.gui.options;
 
 import me.jellysquid.mods.sodium.client.gui.options.binding.GenericBinding;
+import me.jellysquid.mods.sodium.client.gui.options.storage.OptionStorage;
 import me.jellysquid.mods.sodium.client.gui.options.binding.OptionBinding;
 import me.jellysquid.mods.sodium.client.gui.options.control.Control;
-import me.jellysquid.mods.sodium.client.gui.options.storage.OptionStorage;
+import org.apache.commons.lang3.Validate;
 import net.minecraft.text.LiteralText;
 import net.minecraft.text.Text;
-import org.apache.commons.lang3.Validate;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.EnumSet;
 import java.util.function.BiConsumer;
 import java.util.function.Function;
+import java.util.Collections;
+import java.util.Collection;
+import java.util.EnumSet;
 
 public class OptionImpl<S, T> implements Option<T> {
     private final OptionStorage<S> storage;

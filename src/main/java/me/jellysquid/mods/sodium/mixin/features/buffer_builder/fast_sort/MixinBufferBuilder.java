@@ -1,17 +1,17 @@
 package me.jellysquid.mods.sodium.mixin.features.buffer_builder.fast_sort;
 
-import com.google.common.primitives.Floats;
 import net.minecraft.client.render.BufferBuilder;
 import net.minecraft.client.render.VertexFormat;
-import org.lwjgl.system.MemoryStack;
-import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
+import com.google.common.primitives.Floats;
 import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.Mixin;
+import org.lwjgl.system.MemoryStack;
 
-import java.nio.ByteBuffer;
 import java.nio.FloatBuffer;
-import java.util.Arrays;
+import java.nio.ByteBuffer;
 import java.util.BitSet;
+import java.util.Arrays;
 
 @Mixin(BufferBuilder.class)
 public class MixinBufferBuilder {

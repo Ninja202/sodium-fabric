@@ -1,13 +1,13 @@
 package me.jellysquid.mods.sodium.client.util.collections;
 
-import it.unimi.dsi.fastutil.Hash;
-import it.unimi.dsi.fastutil.HashCommon;
-import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
 import it.unimi.dsi.fastutil.objects.ObjectIterator;
+import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
+import it.unimi.dsi.fastutil.HashCommon;
+import it.unimi.dsi.fastutil.Hash;
 
+import java.util.NoSuchElementException;
 import java.util.Arrays;
 import java.util.Map;
-import java.util.NoSuchElementException;
 
 import static it.unimi.dsi.fastutil.HashCommon.arraySize;
 

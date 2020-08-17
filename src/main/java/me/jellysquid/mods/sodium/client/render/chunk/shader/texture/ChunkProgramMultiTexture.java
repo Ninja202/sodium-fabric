@@ -1,11 +1,11 @@
 package me.jellysquid.mods.sodium.client.render.chunk.shader.texture;
 
-import me.jellysquid.mods.sodium.client.gl.sampler.GlSampler;
 import me.jellysquid.mods.sodium.client.render.chunk.shader.ChunkProgram;
-import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.texture.AbstractTexture;
+import me.jellysquid.mods.sodium.client.gl.sampler.GlSampler;
 import net.minecraft.client.texture.SpriteAtlasTexture;
+import net.minecraft.client.texture.AbstractTexture;
 import net.minecraft.client.texture.TextureManager;
+import net.minecraft.client.MinecraftClient;
 import org.lwjgl.opengl.GL11;
 
 public class ChunkProgramMultiTexture extends ChunkProgramTextureComponent {

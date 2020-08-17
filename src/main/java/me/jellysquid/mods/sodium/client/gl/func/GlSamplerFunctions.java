@@ -1,8 +1,8 @@
 package me.jellysquid.mods.sodium.client.gl.func;
 
 import org.lwjgl.opengl.ARBSamplerObjects;
-import org.lwjgl.opengl.GL33;
 import org.lwjgl.opengl.GLCapabilities;
+import org.lwjgl.opengl.GL33;
 
 public enum GlSamplerFunctions {
     CORE {

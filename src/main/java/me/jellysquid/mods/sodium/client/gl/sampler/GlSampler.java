@@ -1,7 +1,7 @@
 package me.jellysquid.mods.sodium.client.gl.sampler;
 
-import me.jellysquid.mods.sodium.client.gl.GlObject;
 import me.jellysquid.mods.sodium.client.gl.func.GlFunctions;
+import me.jellysquid.mods.sodium.client.gl.GlObject;
 
 public class GlSampler extends GlObject {
     public GlSampler() {

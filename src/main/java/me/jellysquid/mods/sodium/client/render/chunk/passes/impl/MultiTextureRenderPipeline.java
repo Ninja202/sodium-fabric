@@ -1,8 +1,8 @@
 package me.jellysquid.mods.sodium.client.render.chunk.passes.impl;
 
-import me.jellysquid.mods.sodium.client.render.chunk.passes.BlockLayer;
 import me.jellysquid.mods.sodium.client.render.chunk.passes.BlockRenderPassManager;
 import me.jellysquid.mods.sodium.client.render.chunk.passes.WorldRenderPhase;
+import me.jellysquid.mods.sodium.client.render.chunk.passes.BlockLayer;
 import net.minecraft.util.Identifier;
 
 public class MultiTextureRenderPipeline {

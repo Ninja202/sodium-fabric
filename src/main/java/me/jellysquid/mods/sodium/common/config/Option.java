@@ -1,8 +1,8 @@
 package me.jellysquid.mods.sodium.common.config;
 
-import java.util.Collection;
-import java.util.Collections;
 import java.util.LinkedHashSet;
+import java.util.Collections;
+import java.util.Collection;
 import java.util.Set;
 
 public class Option {

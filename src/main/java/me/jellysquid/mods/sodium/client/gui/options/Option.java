@@ -1,7 +1,7 @@
 package me.jellysquid.mods.sodium.client.gui.options;
 
-import me.jellysquid.mods.sodium.client.gui.options.control.Control;
 import me.jellysquid.mods.sodium.client.gui.options.storage.OptionStorage;
+import me.jellysquid.mods.sodium.client.gui.options.control.Control;
 import net.minecraft.text.Text;
 
 import java.util.Collection;

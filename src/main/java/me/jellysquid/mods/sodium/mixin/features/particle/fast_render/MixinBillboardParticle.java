@@ -3,17 +3,17 @@ package me.jellysquid.mods.sodium.mixin.features.particle.fast_render;
 import me.jellysquid.mods.sodium.client.model.consumer.ParticleVertexConsumer;
 import me.jellysquid.mods.sodium.client.util.color.ColorABGR;
 import net.minecraft.client.particle.BillboardParticle;
-import net.minecraft.client.particle.Particle;
-import net.minecraft.client.render.Camera;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.util.math.Vector3f;
 import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.particle.Particle;
+import org.spongepowered.asm.mixin.Overwrite;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Quaternion;
-import net.minecraft.util.math.Vec3d;
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Overwrite;
+import net.minecraft.client.render.Camera;
 import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.Mixin;
+import net.minecraft.util.math.Vec3d;
 
 @Mixin(BillboardParticle.class)
 public abstract class MixinBillboardParticle extends Particle {

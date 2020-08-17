@@ -1,10 +1,10 @@
 package me.jellysquid.mods.sodium.client.model.light;
 
 import me.jellysquid.mods.sodium.client.render.entity.EntityLightSampler;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.MathHelper;
 
 public class EntityLighter {
     private static final double MIN_BOX_SIZE = 0.001D;

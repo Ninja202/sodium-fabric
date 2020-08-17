@@ -1,10 +1,10 @@
 package me.jellysquid.mods.sodium.client.render.chunk.oneshot;
 
-import me.jellysquid.mods.sodium.client.render.chunk.shader.ChunkProgram;
 import me.jellysquid.mods.sodium.client.render.chunk.shader.ChunkProgramComponentBuilder;
+import me.jellysquid.mods.sodium.client.render.chunk.shader.ChunkProgram;
 import net.minecraft.util.Identifier;
-import org.lwjgl.opengl.GL20;
 import org.lwjgl.system.MemoryUtil;
+import org.lwjgl.opengl.GL20;
 
 import java.nio.FloatBuffer;
 

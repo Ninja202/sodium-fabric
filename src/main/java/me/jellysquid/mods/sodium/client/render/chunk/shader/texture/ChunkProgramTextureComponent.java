@@ -1,10 +1,10 @@
 package me.jellysquid.mods.sodium.client.render.chunk.shader.texture;
 
-import com.mojang.blaze3d.platform.GlStateManager;
 import me.jellysquid.mods.sodium.client.render.chunk.shader.ShaderComponent;
 import net.minecraft.client.texture.AbstractTexture;
-import org.lwjgl.opengl.GL15;
+import com.mojang.blaze3d.platform.GlStateManager;
 import org.lwjgl.opengl.GL20;
+import org.lwjgl.opengl.GL15;
 
 public abstract class ChunkProgramTextureComponent implements ShaderComponent {
     protected void bindTexture(AbstractTexture texture, ChunkProgramTextureUnit unit) {

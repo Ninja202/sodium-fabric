@@ -1,8 +1,8 @@
 package me.jellysquid.mods.sodium.client.model.light;
 
-import me.jellysquid.mods.sodium.client.model.light.data.LightDataAccess;
-import me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline;
 import me.jellysquid.mods.sodium.client.model.light.smooth.SmoothLightPipeline;
+import me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline;
+import me.jellysquid.mods.sodium.client.model.light.data.LightDataAccess;
 
 import java.util.EnumMap;
 

@@ -1,8 +1,8 @@
 package me.jellysquid.mods.sodium.client.render.chunk.shader.texture;
 
 import me.jellysquid.mods.sodium.client.render.chunk.shader.ChunkProgram;
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.texture.SpriteAtlasTexture;
+import net.minecraft.client.MinecraftClient;
 import org.lwjgl.opengl.GL20;
 
 public class ChunkProgramSingleTexture extends ChunkProgramTextureComponent {

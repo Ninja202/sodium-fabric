@@ -1,9 +1,9 @@
 package me.jellysquid.mods.sodium.client.render.chunk.data;
 
+import me.jellysquid.mods.sodium.client.model.quad.properties.ModelQuadFacing;
 import it.unimi.dsi.fastutil.objects.Object2ObjectLinkedOpenHashMap;
 import me.jellysquid.mods.sodium.client.gl.buffer.VertexData;
 import me.jellysquid.mods.sodium.client.gl.util.BufferSlice;
-import me.jellysquid.mods.sodium.client.model.quad.properties.ModelQuadFacing;
 
 import java.util.Map;
 

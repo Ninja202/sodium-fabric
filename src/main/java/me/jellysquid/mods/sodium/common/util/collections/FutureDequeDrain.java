@@ -1,8 +1,8 @@
 package me.jellysquid.mods.sodium.common.util.collections;
 
-import java.util.Deque;
-import java.util.Iterator;
 import java.util.concurrent.CompletableFuture;
+import java.util.Iterator;
+import java.util.Deque;
 
 public class FutureDequeDrain<T> implements Iterator<T> {
     private final Deque<CompletableFuture<T>> deque;

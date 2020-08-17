@@ -1,9 +1,9 @@
 package me.jellysquid.mods.sodium.client.world.biome;
 
 import me.jellysquid.mods.sodium.common.util.pool.ReusableObject;
-import net.minecraft.world.biome.Biome;
-import net.minecraft.world.biome.source.BiomeAccess;
 import net.minecraft.world.biome.source.BiomeAccessType;
+import net.minecraft.world.biome.source.BiomeAccess;
+import net.minecraft.world.biome.Biome;
 
 import java.util.Arrays;
 

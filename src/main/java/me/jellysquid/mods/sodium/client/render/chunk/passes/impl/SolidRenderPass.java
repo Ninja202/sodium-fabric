@@ -1,9 +1,9 @@
 package me.jellysquid.mods.sodium.client.render.chunk.passes.impl;
 
-import com.mojang.blaze3d.systems.RenderSystem;
-import me.jellysquid.mods.sodium.client.render.chunk.passes.BlockLayer;
 import me.jellysquid.mods.sodium.client.render.chunk.passes.BlockRenderPass;
+import me.jellysquid.mods.sodium.client.render.chunk.passes.BlockLayer;
 import net.minecraft.client.render.RenderLayer;
+import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.util.Identifier;
 
 public class SolidRenderPass extends BlockRenderPass {

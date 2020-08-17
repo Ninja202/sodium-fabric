@@ -1,13 +1,13 @@
 package me.jellysquid.mods.sodium.client.render.chunk.data;
 
-import it.unimi.dsi.fastutil.objects.ObjectArrayList;
-import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet;
-import it.unimi.dsi.fastutil.objects.Reference2ReferenceArrayMap;
-import me.jellysquid.mods.sodium.client.gl.util.BufferSlice;
 import me.jellysquid.mods.sodium.client.model.quad.properties.ModelQuadFacing;
 import me.jellysquid.mods.sodium.client.render.chunk.passes.BlockRenderPass;
-import net.minecraft.block.entity.BlockEntity;
+import it.unimi.dsi.fastutil.objects.Reference2ReferenceArrayMap;
 import net.minecraft.client.render.chunk.ChunkOcclusionData;
+import me.jellysquid.mods.sodium.client.gl.util.BufferSlice;
+import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet;
+import it.unimi.dsi.fastutil.objects.ObjectArrayList;
+import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.client.texture.Sprite;
 import net.minecraft.util.math.Direction;
 

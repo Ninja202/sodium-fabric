@@ -2,9 +2,9 @@ package me.jellysquid.mods.sodium.client.world.biome;
 
 import me.jellysquid.mods.sodium.client.util.color.ColorARGB;
 import me.jellysquid.mods.sodium.client.world.WorldSlice;
+import net.minecraft.world.level.ColorResolver;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.level.ColorResolver;
 
 import java.util.Arrays;
 

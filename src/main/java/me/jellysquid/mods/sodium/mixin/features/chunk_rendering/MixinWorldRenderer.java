@@ -1,23 +1,23 @@
 package me.jellysquid.mods.sodium.mixin.features.chunk_rendering;
 
-import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
-import me.jellysquid.mods.sodium.client.render.SodiumWorldRenderer;
 import me.jellysquid.mods.sodium.client.render.chunk.passes.WorldRenderPhase;
-import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.options.GameOptions;
-import net.minecraft.client.render.*;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import me.jellysquid.mods.sodium.client.render.SodiumWorldRenderer;
+import org.spongepowered.asm.mixin.injection.Redirect;
+import org.spongepowered.asm.mixin.injection.Inject;
 import net.minecraft.client.util.math.MatrixStack;
+import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
+import net.minecraft.client.options.GameOptions;
+import org.spongepowered.asm.mixin.injection.At;
 import net.minecraft.client.world.ClientWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Matrix4f;
+import org.spongepowered.asm.mixin.Overwrite;
+import net.minecraft.client.MinecraftClient;
+import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Overwrite;
-import org.spongepowered.asm.mixin.Shadow;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.Redirect;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Matrix4f;
+import net.minecraft.client.render.*;
 
 import java.util.SortedSet;
 

@@ -1,12 +1,12 @@
 package me.jellysquid.mods.sodium.client.gl.arena;
 
-import it.unimi.dsi.fastutil.objects.ObjectLinkedOpenHashSet;
-import me.jellysquid.mods.sodium.client.gl.buffer.GlBuffer;
 import me.jellysquid.mods.sodium.client.gl.buffer.GlMutableBuffer;
 import me.jellysquid.mods.sodium.client.gl.util.MemoryTracker;
-import org.lwjgl.opengl.GL15;
-import org.lwjgl.opengl.GL31;
+import it.unimi.dsi.fastutil.objects.ObjectLinkedOpenHashSet;
+import me.jellysquid.mods.sodium.client.gl.buffer.GlBuffer;
 import org.lwjgl.opengl.GL33;
+import org.lwjgl.opengl.GL31;
+import org.lwjgl.opengl.GL15;
 
 import java.util.Set;
 

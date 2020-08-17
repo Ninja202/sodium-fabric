@@ -1,16 +1,16 @@
 package me.jellysquid.mods.sodium.mixin.core.model;
 
-import it.unimi.dsi.fastutil.objects.Reference2ReferenceMap;
-import it.unimi.dsi.fastutil.objects.Reference2ReferenceOpenHashMap;
 import me.jellysquid.mods.sodium.client.world.biome.ItemColorsExtended;
-import net.minecraft.client.color.item.ItemColorProvider;
-import net.minecraft.client.color.item.ItemColors;
-import net.minecraft.item.ItemConvertible;
-import net.minecraft.item.ItemStack;
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
+import it.unimi.dsi.fastutil.objects.Reference2ReferenceOpenHashMap;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import it.unimi.dsi.fastutil.objects.Reference2ReferenceMap;
+import net.minecraft.client.color.item.ItemColorProvider;
+import org.spongepowered.asm.mixin.injection.Inject;
+import net.minecraft.client.color.item.ItemColors;
+import org.spongepowered.asm.mixin.injection.At;
+import net.minecraft.item.ItemConvertible;
+import org.spongepowered.asm.mixin.Mixin;
+import net.minecraft.item.ItemStack;
 
 @Mixin(ItemColors.class)
 public class MixinItemColors implements ItemColorsExtended {

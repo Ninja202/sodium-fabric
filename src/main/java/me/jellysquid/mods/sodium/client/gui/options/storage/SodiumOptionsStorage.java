@@ -1,7 +1,7 @@
 package me.jellysquid.mods.sodium.client.gui.options.storage;
 
-import me.jellysquid.mods.sodium.client.SodiumClientMod;
 import me.jellysquid.mods.sodium.client.gui.SodiumGameOptions;
+import me.jellysquid.mods.sodium.client.SodiumClientMod;
 
 public class SodiumOptionsStorage implements OptionStorage<SodiumGameOptions> {
     private final SodiumGameOptions options;

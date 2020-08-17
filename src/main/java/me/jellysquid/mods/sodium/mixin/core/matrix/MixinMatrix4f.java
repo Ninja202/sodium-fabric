@@ -1,15 +1,15 @@
 package me.jellysquid.mods.sodium.mixin.core.matrix;
 
-import me.jellysquid.mods.sodium.client.util.UnsafeUtil;
 import me.jellysquid.mods.sodium.client.util.math.Matrix4fExtended;
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
-import net.minecraft.util.math.Matrix4f;
-import net.minecraft.util.math.Quaternion;
-import org.lwjgl.system.MemoryUtil;
-import org.spongepowered.asm.mixin.Mixin;
+import me.jellysquid.mods.sodium.client.util.UnsafeUtil;
 import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
+import net.minecraft.util.math.Quaternion;
+import org.spongepowered.asm.mixin.Mixin;
+import net.minecraft.util.math.Matrix4f;
+import net.fabricmc.api.Environment;
+import org.lwjgl.system.MemoryUtil;
+import net.fabricmc.api.EnvType;
 import sun.misc.Unsafe;
 
 import java.nio.BufferUnderflowException;

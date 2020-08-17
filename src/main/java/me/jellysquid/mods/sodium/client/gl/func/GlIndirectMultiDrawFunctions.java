@@ -1,8 +1,8 @@
 package me.jellysquid.mods.sodium.client.gl.func;
 
 import org.lwjgl.opengl.ARBMultiDrawIndirect;
-import org.lwjgl.opengl.GL43;
 import org.lwjgl.opengl.GLCapabilities;
+import org.lwjgl.opengl.GL43;
 
 import java.nio.ByteBuffer;
 

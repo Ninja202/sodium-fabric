@@ -1,7 +1,7 @@
 package me.jellysquid.mods.sodium.client.render.chunk.passes.impl;
 
-import me.jellysquid.mods.sodium.client.render.chunk.passes.BlockLayer;
 import me.jellysquid.mods.sodium.client.render.chunk.passes.BlockRenderPass;
+import me.jellysquid.mods.sodium.client.render.chunk.passes.BlockLayer;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.util.Identifier;
 

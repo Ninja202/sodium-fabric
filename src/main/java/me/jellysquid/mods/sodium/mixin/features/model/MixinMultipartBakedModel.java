@@ -1,21 +1,21 @@
 package me.jellysquid.mods.sodium.mixin.features.model;
 
-import net.minecraft.block.BlockState;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import net.minecraft.client.render.model.MultipartBakedModel;
+import org.spongepowered.asm.mixin.injection.Inject;
 import net.minecraft.client.render.model.BakedModel;
 import net.minecraft.client.render.model.BakedQuad;
-import net.minecraft.client.render.model.MultipartBakedModel;
-import net.minecraft.util.math.Direction;
-import org.apache.commons.lang3.tuple.Pair;
-import org.spongepowered.asm.mixin.Final;
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Overwrite;
-import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import org.spongepowered.asm.mixin.Overwrite;
+import org.apache.commons.lang3.tuple.Pair;
+import org.spongepowered.asm.mixin.Shadow;
+import net.minecraft.util.math.Direction;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Final;
+import net.minecraft.block.BlockState;
 
-import java.util.*;
 import java.util.function.Predicate;
+import java.util.*;
 
 @Mixin(MultipartBakedModel.class)
 public class MixinMultipartBakedModel {

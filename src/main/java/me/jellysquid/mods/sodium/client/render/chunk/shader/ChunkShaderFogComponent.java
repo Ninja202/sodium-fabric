@@ -1,9 +1,9 @@
 package me.jellysquid.mods.sodium.client.render.chunk.shader;
 
 import me.jellysquid.mods.sodium.client.gl.util.GlFogHelper;
-import org.lwjgl.opengl.GL11;
-import org.lwjgl.opengl.GL20;
 import org.lwjgl.system.MemoryStack;
+import org.lwjgl.opengl.GL20;
+import org.lwjgl.opengl.GL11;
 
 import java.nio.FloatBuffer;
 

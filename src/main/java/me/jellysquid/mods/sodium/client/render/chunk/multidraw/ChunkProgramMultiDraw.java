@@ -1,7 +1,7 @@
 package me.jellysquid.mods.sodium.client.render.chunk.multidraw;
 
-import me.jellysquid.mods.sodium.client.render.chunk.shader.ChunkProgram;
 import me.jellysquid.mods.sodium.client.render.chunk.shader.ChunkProgramComponentBuilder;
+import me.jellysquid.mods.sodium.client.render.chunk.shader.ChunkProgram;
 import net.minecraft.util.Identifier;
 
 public class ChunkProgramMultiDraw extends ChunkProgram {

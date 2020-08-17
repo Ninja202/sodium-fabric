@@ -1,16 +1,16 @@
 package me.jellysquid.mods.sodium.mixin;
 
-import me.jellysquid.mods.sodium.common.config.Option;
-import me.jellysquid.mods.sodium.common.config.SodiumConfig;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.objectweb.asm.tree.ClassNode;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;
 import org.spongepowered.asm.mixin.extensibility.IMixinInfo;
+import me.jellysquid.mods.sodium.common.config.SodiumConfig;
+import me.jellysquid.mods.sodium.common.config.Option;
+import org.apache.logging.log4j.LogManager;
+import org.objectweb.asm.tree.ClassNode;
+import org.apache.logging.log4j.Logger;
 
-import java.io.File;
 import java.util.List;
 import java.util.Set;
+import java.io.File;
 
 @SuppressWarnings("unused")
 public class SodiumMixinPlugin implements IMixinConfigPlugin {

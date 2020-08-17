@@ -1,10 +1,10 @@
 package me.jellysquid.mods.sodium.client.model.quad.blender;
 
 import me.jellysquid.mods.sodium.client.model.quad.ModelQuadView;
-import net.minecraft.block.BlockState;
 import net.minecraft.client.color.block.BlockColorProvider;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockRenderView;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.block.BlockState;
 
 public interface BiomeColorBlender {
     /**

@@ -1,13 +1,13 @@
 package me.jellysquid.mods.sodium.mixin.features.options;
 
-import me.jellysquid.mods.sodium.client.SodiumClientMod;
 import me.jellysquid.mods.sodium.client.gui.SodiumGameOptions;
+import me.jellysquid.mods.sodium.client.SodiumClientMod;
 import net.minecraft.client.options.CloudRenderMode;
-import net.minecraft.client.options.GameOptions;
 import net.minecraft.client.options.GraphicsMode;
-import org.spongepowered.asm.mixin.Mixin;
+import net.minecraft.client.options.GameOptions;
 import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.Mixin;
 
 @Mixin(GameOptions.class)
 public class MixinGameOptions {
